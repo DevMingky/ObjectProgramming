@@ -72,6 +72,20 @@ void Buy()
 	std::cout << std::endl;
 	bool isBought=false;
 
+	while (true) {
+		std::cout << "문장";
+		std::cin >> num;
+
+		if (std::cin.fail()) {
+			std::cout << std::endl << "유효하지 않은 입력입니다." << std::endl << std::endl;
+			std::cin.clear(); // 오류 상태 플래그 초기화
+			std::cin.ignore(INT_MAX, '\n'); // 잘못된 입력 무시
+		}
+		else {
+			break; // 입력 성공
+		}
+	}
+
 	switch (num)
 	{
 		case 1:
@@ -119,6 +133,20 @@ void Sell( )
 	std::cout << std::endl;
 	bool isSell = false;
 
+	while (true) {
+		std::cout << "문장";
+		std::cin >> num;
+
+		if (std::cin.fail()) {
+			std::cout << std::endl << "유효하지 않은 입력입니다." << std::endl << std::endl;
+			std::cin.clear(); // 오류 상태 플래그 초기화
+			std::cin.ignore(INT_MAX, '\n'); // 잘못된 입력 무시
+		}
+		else {
+			break; // 입력 성공
+		}
+	}
+
 	switch (num)
 	{
 	case 1:
@@ -151,9 +179,51 @@ void Sell( )
 	return;
 }
 
+//이벤트 주기 카운트 ( 처음시작할때 바로 뉴스가 갱신되게하기위해서 이벤트주기값으로 설정)
+int eventCount = 5;
+//이벤트 종류 결정하는 변수
+int event = (rand() % 10) + 1;
 void news()
 {
-	Lobby();
+	switch (event)
+	{
+	case 1:
+		std::cout << std::endl << "전세계적 전염병 발발, 보건 당국애서는 청결과 외출에 주의 당부" << std::endl;
+		break;
+	case 2:
+		std::cout << std::endl << "화학 물질에 관련된 정부 차원의 대대적인 감사 진행 예정, 수입 업체도 예외는 아니다" << std::endl;
+
+		break;
+	case 3:
+		std::cout << std::endl << "동아시아 정상회담개최 예정. 주요 의제는 동아시아 국가 간 관세 조정" << std::endl;
+		break;
+	case 4:
+		std::cout << std::endl << "정부 주도로 미디어 매체의 검열 제도에 대한 재검토 발표. 규제책 강화 예정" << std::endl;
+
+		break;
+	case 5:
+		std::cout << std::endl << "동산 코믹스, 청소년들의 준법의식 함양을 위한 학습만화 제작 착수. 법무 법인 쉐턱과 협력 예정 " << std::endl;
+		break;
+	case 6:
+		std::cout << std::endl << "중국, 판호 발행 조건 강화. 미디어 산업 총체적 난국" << std::endl;
+
+		break;
+	case 7:
+		std::cout << std::endl << "국제적인 유가 폭등. 관련 업체는 한숨만" << std::endl;
+		break;
+	case 8:
+		std::cout << std::endl << "동아시아까지 내려온 소말리아 해적. 해상 무역의 적신호 발발" << std::endl;
+		break;
+	case 9:
+		std::cout << std::endl << "보산 화학, 법무법인 쉐턱과 업무 협약 체결." << std::endl;
+		break;
+	case 10:
+		std::cout << std::endl << "덕래 게임즈, 신규 IP 제작 계획 발표. 예상 개발비는 약 1000억 이상 예정" << std::endl;
+		break;
+	default:
+		std::cout << std::endl << "소식이 없습니다" << std::endl;
+		break;
+	}
 	return;
 }
 
@@ -164,6 +234,20 @@ void Lobby()
 		int num=0;
 		std::cout<<std::endl<< "숫자를 입력하세요 : 1.내정보 / 2.주식종류,가격 / 3.주식 구매 / 4.주식 판매 / 5.뉴스 확인 :";
 		std::cin >> num;
+
+		while (true) {
+			std::cout << "문장";
+			std::cin >> num;
+
+			if (std::cin.fail()) {
+				std::cout << std::endl << "유효하지 않은 입력입니다." << std::endl << std::endl;
+				std::cin.clear(); // 오류 상태 플래그 초기화
+				std::cin.ignore(INT_MAX, '\n'); // 잘못된 입력 무시
+			}
+			else {
+				break; // 입력 성공
+			}
+		}
 
 		switch (num)
 		{
@@ -191,6 +275,8 @@ void Lobby()
 	
 
 }
+
+
 
 
 // 주기적으로 실행될 함수
@@ -351,6 +437,76 @@ void StockUpdate()
 		}
 		std::cout << stock4.name << " 가격:" << stock4.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
 	}
+
+
+	
+	eventCount++;
+	
+	//이벤트 주기 설정 여기서
+	if (eventCount >= 5)
+	{
+		stock0.upPercent = 50;
+		stock1.upPercent = 50;
+		stock2.upPercent = 50;
+		stock3.upPercent = 50;
+		stock4.upPercent = 50;
+		eventCount = 0;
+		std::cout << std::endl << "뉴스가 갱신되었습니다" << std::endl;
+
+
+		switch (event)
+		{
+		case 1:
+			std::cout << std::endl << "전세계적 전염병 발발, 보건 당국애서는 청결과 외출에 주의 당부" << std::endl;
+			stock1.upPercent = 5;
+			stock4.upPercent = 70;
+			break;
+		case 2:
+			std::cout << std::endl << "화학 물질에 관련된 정부 차원의 대대적인 감사 진행 예정, 수입 업체도 예외는 아니다" << std::endl;
+			stock0.upPercent = 35;
+			stock3.upPercent = 95;
+			break;
+		case 3:
+			std::cout << std::endl << "동아시아 정상회담개최 예정. 주요 의제는 동아시아 국가 간 관세 조정" << std::endl;
+			stock0.upPercent = 100;
+			break;
+		case 4:
+			std::cout << std::endl << "정부 주도로 미디어 매체의 검열 제도에 대한 재검토 발표. 규제책 강화 예정" << std::endl;
+			stock1.upPercent = 10;
+			stock4.upPercent = 10;
+			break;
+		case 5:
+			std::cout << std::endl << "동산 코믹스, 청소년들의 준법의식 함양을 위한 학습만화 제작 착수. 법무 법인 쉐턱과 협력 예정 " << std::endl;
+			stock2.upPercent = 75;
+			break;
+		case 6:
+			std::cout << std::endl << "중국, 판호 발행 조건 강화. 미디어 산업 총체적 난국" << std::endl;
+			stock1.upPercent = 10;
+			stock4.upPercent = 30;
+			break;
+		case 7:
+			std::cout << std::endl << "국제적인 유가 폭등. 관련 업체는 한숨만" << std::endl;
+			stock0.upPercent = 5;
+			stock3.upPercent = 30;
+			break;
+		case 8:
+			std::cout << std::endl << "동아시아까지 내려온 소말리아 해적. 해상 무역의 적신호 발발" << std::endl;
+			stock0.upPercent = 5;
+			break;
+		case 9:
+			std::cout << std::endl << "보산 화학, 법무법인 쉐턱과 업무 협약 체결." << std::endl;
+			stock2.upPercent = 75;
+			stock3.upPercent = 75;
+			break;
+		case 10:
+			std::cout << std::endl << "덕래 게임즈, 신규 IP 제작 계획 발표. 예상 개발비는 약 1000억 이상 예정" << std::endl;
+			stock1.upPercent = 100;
+			break;
+		default:
+			break;
+		}
+	}
+	
 
 	
 

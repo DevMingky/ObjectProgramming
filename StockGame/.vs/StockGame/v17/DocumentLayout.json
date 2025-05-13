@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\",
+  "WorkspaceRootPath": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|solutionrelative:StockGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\Stock.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockGame\\Stock.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\StockMaker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockGame\\StockMaker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Stock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockGame\\Stock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Stock.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|solutionrelative:StockGame\\Stock.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\StockMaker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|solutionrelative:StockGame\\StockMaker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45B238A4-B06E-471A-B743-79D28EAA488B}|StockGame\\StockGame.vcxproj|solutionrelative:StockGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CppProperties.json",
+              "DocumentMoniker": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\CppProperties.json",
+              "RelativeDocumentMoniker": "CppProperties.json",
+              "ToolTip": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\CppProperties.json",
+              "RelativeToolTip": "CppProperties.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T07:51:48.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stock.cpp",
+              "DocumentMoniker": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Stock.cpp",
+              "RelativeDocumentMoniker": "StockGame\\Stock.cpp",
+              "ToolTip": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Stock.cpp",
+              "RelativeToolTip": "StockGame\\Stock.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-13T05:33:06.174Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\main.cpp",
               "RelativeDocumentMoniker": "StockGame\\main.cpp",
-              "ToolTip": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\main.cpp",
+              "ToolTip": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\main.cpp",
               "RelativeToolTip": "StockGame\\main.cpp",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAAACABAABFAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAApwM4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-08T13:58:56.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Stock.h",
-              "DocumentMoniker": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\Stock.h",
+              "DocumentMoniker": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Stock.h",
               "RelativeDocumentMoniker": "StockGame\\Stock.h",
-              "ToolTip": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\Stock.h",
+              "ToolTip": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Stock.h",
               "RelativeToolTip": "StockGame\\Stock.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-08T13:57:01.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StockMaker.h",
-              "DocumentMoniker": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\StockMaker.h",
+              "DocumentMoniker": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\StockMaker.h",
               "RelativeDocumentMoniker": "StockGame\\StockMaker.h",
-              "ToolTip": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\StockMaker.h",
+              "ToolTip": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\StockMaker.h",
               "RelativeToolTip": "StockGame\\StockMaker.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-08T14:08:35.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Player.h",
-              "DocumentMoniker": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\Player.h",
+              "DocumentMoniker": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Player.h",
               "RelativeDocumentMoniker": "StockGame\\Player.h",
-              "ToolTip": "D:\\unity_study\\GameProject2-1\\ObjectProgramming\\StockGame\\StockGame\\Player.h",
+              "ToolTip": "C:\\Users\\seomi\\OneDrive\\Desktop\\ObjectProgramming\\StockGame\\StockGame\\Player.h",
               "RelativeToolTip": "StockGame\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-08T14:00:55.138Z"
             }

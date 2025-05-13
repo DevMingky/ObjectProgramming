@@ -9,7 +9,7 @@ public:
 	std::string name;
 
 	//»ó½Â È®·ü
-	float upPercent=100;
+	float upPercent=50;
 	//ÁÖ°¡ Áõ°¡ Æø
 	float priceIncreaseMax=0;
 	float priceIncreaseMin=0;
