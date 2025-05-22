@@ -1,0 +1,120 @@
+﻿  main.cpp
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\Stock.h(25,15): warning C4244: '-=': 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\Stock.h(42,15): warning C4244: '+=': 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(285,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(304,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(304,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(304,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(304,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(304,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(305,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(305,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(305,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(305,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(305,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(308,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(317,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(317,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(317,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(317,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(317,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(318,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(318,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(318,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(318,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(318,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(320,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(333,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(333,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(333,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(333,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(333,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(334,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(334,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(334,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(334,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(334,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(337,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(346,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(346,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(346,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(346,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(346,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(347,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(347,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(347,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(347,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(347,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(349,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(362,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(362,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(362,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(362,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(362,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(363,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(363,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(363,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(363,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(363,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(366,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(375,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(375,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(375,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(375,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(375,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(376,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(376,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(376,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(376,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(376,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(378,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(390,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(390,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(390,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(390,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(390,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(391,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(391,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(391,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(391,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(391,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(394,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(403,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(403,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(403,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(403,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(403,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(404,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(404,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(404,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(404,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(404,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(406,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(417,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(417,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(417,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(417,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(417,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(418,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(418,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(418,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(418,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(418,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(421,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(430,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(430,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(430,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(430,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(430,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(431,11): warning C4244: '초기화 중': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(431,11): warning C4244:         with
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(431,11): warning C4244:         [
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(431,11): warning C4244:             _Ty=float
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(431,11): warning C4244:         ]
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(433,19): warning C4244: '*=': 'float'에서 'int64_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\NewObjectProgramming\main.cpp(544,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewObjectProgramming.vcxproj -> C:\Users\seomi\OneDrive\Desktop\NewObjectProgramming\x64\Debug\NewObjectProgramming.exe
