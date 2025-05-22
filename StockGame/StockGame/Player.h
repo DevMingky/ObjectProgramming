@@ -2,7 +2,7 @@
 class Player
 {
 public:
-	int money =100000000;
+	int money =10000000;
 
 
 };
