@@ -15,14 +15,14 @@ void news();
 void Lobby();
 
 
-//ÁÖ½Ä »ı¼º
-StockMaker static stock0(1000000, "½º¹Ì½º ¹«¿ª",90,150,30,90);
-StockMaker static stock1(100, "´ö·¡ °ÔÀÓÁî",70,100,50,90);
-StockMaker static stock2(1000, "¹ı¹«¹ıÀÎ ½¦ÅÎ",10,30,40,80);
-StockMaker static stock3(10000, "º¸»ê È­ÇĞ",50,90,60,70);
-StockMaker static stock4(1000000000, "µ¿»ê ÄÚ¹Í½º",30,70,50,80);
+//ì£¼ì‹ ìƒì„±
+StockMaker static stock0(50000, "ìŠ¤ë¯¸ìŠ¤ ë¬´ì—­",90,120,30,100);
+StockMaker static stock1(100000, "ë•ë˜ ê²Œì„ì¦ˆ",50,75,50,75);
+StockMaker static stock2(200000, "ë²•ë¬´ë²•ì¸ ì‰í„±",10,30,40,80);
+StockMaker static stock3(150000, "ë³´ì‚° í™”í•™",40,100,30,90);
+StockMaker static stock4(300000, "ë™ì‚° ì½”ë¯¹ìŠ¤",30,70,50,80);
 
-//ÇÃ·¹ÀÌ¾î »ı¼º
+//í”Œë ˆì´ì–´ ìƒì„±
 Player static player;
 
 
@@ -31,12 +31,12 @@ Player static player;
 void myInfo()
 {
 	std::cout << std::endl;
-	std::cout << "µ·:" << player.money << std::endl;
-	std::cout << stock0.name << " °¡°İ:" << stock0.price << " °³¼ö:" << stock0.count << std::endl;
-	std::cout << stock1.name << " °¡°İ:" << stock1.price << " °³¼ö:" << stock1.count << std::endl;
-	std::cout << stock2.name << " °¡°İ:" << stock2.price << " °³¼ö:" << stock2.count << std::endl;
-	std::cout << stock3.name << " °¡°İ:" << stock3.price << " °³¼ö:" << stock3.count << std::endl;
-	std::cout << stock4.name << " °¡°İ:" << stock4.price << " °³¼ö:" << stock4.count << std::endl;
+	std::cout << "ëˆ:" << player.money << std::endl;
+	std::cout << stock0.name << " ê°€ê²©:" << stock0.price << " ê°œìˆ˜:" << stock0.count << std::endl;
+	std::cout << stock1.name << " ê°€ê²©:" << stock1.price << " ê°œìˆ˜:" << stock1.count << std::endl;
+	std::cout << stock2.name << " ê°€ê²©:" << stock2.price << " ê°œìˆ˜:" << stock2.count << std::endl;
+	std::cout << stock3.name << " ê°€ê²©:" << stock3.price << " ê°œìˆ˜:" << stock3.count << std::endl;
+	std::cout << stock4.name << " ê°€ê²©:" << stock4.price << " ê°œìˆ˜:" << stock4.count << std::endl;
 	std::cout << std::endl;
 	return;
 }
@@ -44,11 +44,11 @@ void myInfo()
 void Check()
 {
 	std::cout << std::endl;
-	std::cout <<stock0.name <<" °¡°İ:"<<stock0.price<<" °³¼ö:"<<stock0.count << std::endl;
-	std::cout <<stock1.name <<" °¡°İ:"<<stock1.price<<" °³¼ö:"<<stock1.count << std::endl;
-	std::cout <<stock2.name <<" °¡°İ:"<<stock2.price<<" °³¼ö:"<<stock2.count << std::endl;
-	std::cout <<stock3.name <<" °¡°İ:"<<stock3.price<<" °³¼ö:"<<stock3.count << std::endl;
-	std::cout <<stock4.name <<" °¡°İ:"<<stock4.price<<" °³¼ö:"<<stock4.count << std::endl;
+	std::cout <<stock0.name <<" ê°€ê²©:"<<stock0.price<<" ê°œìˆ˜:"<<stock0.count << std::endl;
+	std::cout <<stock1.name <<" ê°€ê²©:"<<stock1.price<<" ê°œìˆ˜:"<<stock1.count << std::endl;
+	std::cout <<stock2.name <<" ê°€ê²©:"<<stock2.price<<" ê°œìˆ˜:"<<stock2.count << std::endl;
+	std::cout <<stock3.name <<" ê°€ê²©:"<<stock3.price<<" ê°œìˆ˜:"<<stock3.count << std::endl;
+	std::cout <<stock4.name <<" ê°€ê²©:"<<stock4.price<<" ê°œìˆ˜:"<<stock4.count << std::endl;
 	std::cout << std::endl;
 	return;
 }
@@ -58,31 +58,31 @@ void Check()
 void Buy()
 {
 	std::cout << std::endl;
-	std::cout <<"1."<<stock0.name <<" °¡°İ:"<<stock0.price<<" °³¼ö:"<<stock0.count << std::endl;
-	std::cout <<"2."<<stock1.name <<" °¡°İ:"<<stock1.price<<" °³¼ö:"<<stock1.count << std::endl;
-	std::cout <<"3."<<stock2.name <<" °¡°İ:"<<stock2.price<<" °³¼ö:"<<stock2.count << std::endl;
-	std::cout <<"4."<<stock3.name <<" °¡°İ:"<<stock3.price<<" °³¼ö:"<<stock3.count << std::endl;
-	std::cout <<"5."<<stock4.name <<" °¡°İ:"<<stock4.price<<" °³¼ö:"<<stock4.count << std::endl;
+	std::cout <<"1."<<stock0.name <<" ê°€ê²©:"<<stock0.price<<" ê°œìˆ˜:"<<stock0.count << std::endl;
+	std::cout <<"2."<<stock1.name <<" ê°€ê²©:"<<stock1.price<<" ê°œìˆ˜:"<<stock1.count << std::endl;
+	std::cout <<"3."<<stock2.name <<" ê°€ê²©:"<<stock2.price<<" ê°œìˆ˜:"<<stock2.count << std::endl;
+	std::cout <<"4."<<stock3.name <<" ê°€ê²©:"<<stock3.price<<" ê°œìˆ˜:"<<stock3.count << std::endl;
+	std::cout <<"5."<<stock4.name <<" ê°€ê²©:"<<stock4.price<<" ê°œìˆ˜:"<<stock4.count << std::endl;
 	std::cout << std::endl;
 
 	int num=0;
 
-	std::cout << "¾î¶² ÁÖ½ÄÀ» ±¸¸ÅÇÒÁö °áÁ¤ÇÏ¼¼¿ä ( ¼ıÀÚ·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä ):";
+	std::cout << "ì–´ë–¤ ì£¼ì‹ì„ êµ¬ë§¤í• ì§€ ê²°ì •í•˜ì„¸ìš” ( ìˆ«ìë¡œ ì…ë ¥í•´ ì£¼ì„¸ìš” ):";
 	std::cin >> num;
 	std::cout << std::endl;
 	bool isBought=false;
 
 	while (true) {
-		std::cout << "¹®Àå";
+		std::cout << "ë¬¸ì¥";
 		std::cin >> num;
 
 		if (std::cin.fail()) {
-			std::cout << std::endl << "À¯È¿ÇÏÁö ¾ÊÀº ÀÔ·ÂÀÔ´Ï´Ù." << std::endl << std::endl;
-			std::cin.clear(); // ¿À·ù »óÅÂ ÇÃ·¡±× ÃÊ±âÈ­
-			std::cin.ignore(INT_MAX, '\n'); // Àß¸øµÈ ÀÔ·Â ¹«½Ã
+			std::cout << std::endl << "ìœ íš¨í•˜ì§€ ì•Šì€ ì…ë ¥ì…ë‹ˆë‹¤." << std::endl << std::endl;
+			std::cin.clear(); // ì˜¤ë¥˜ ìƒíƒœ í”Œë˜ê·¸ ì´ˆê¸°í™”
+			std::cin.ignore(INT_MAX, '\n'); // ì˜ëª»ëœ ì…ë ¥ ë¬´ì‹œ
 		}
 		else {
-			break; // ÀÔ·Â ¼º°ø
+			break; // ì…ë ¥ ì„±ê³µ
 		}
 	}
 
@@ -104,7 +104,7 @@ void Buy()
 			isBought = stock4.Buy(player.money);
 			break;
 		default:
-			std::cout << std::endl << "¼ıÀÚ¸¦ Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù" << std::endl;
+			std::cout << std::endl << "ìˆ«ìë¥¼ ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤" << std::endl;
 			isBought = false;
 			break;
 	}
@@ -120,30 +120,30 @@ void Buy()
 void Sell( )
 {
 	std::cout << std::endl;
-	std::cout << "1." << stock0.name << " °¡°İ:" << stock0.price << " °³¼ö:" << stock0.count << std::endl;
-	std::cout << "2." << stock1.name << " °¡°İ:" << stock1.price << " °³¼ö:" << stock1.count << std::endl;
-	std::cout << "3." << stock2.name << " °¡°İ:" << stock2.price << " °³¼ö:" << stock2.count << std::endl;
-	std::cout << "4." << stock3.name << " °¡°İ:" << stock3.price << " °³¼ö:" << stock3.count << std::endl;
-	std::cout << "5." << stock4.name << " °¡°İ:" << stock4.price << " °³¼ö:" << stock4.count << std::endl;
+	std::cout << "1." << stock0.name << " ê°€ê²©:" << stock0.price << " ê°œìˆ˜:" << stock0.count << std::endl;
+	std::cout << "2." << stock1.name << " ê°€ê²©:" << stock1.price << " ê°œìˆ˜:" << stock1.count << std::endl;
+	std::cout << "3." << stock2.name << " ê°€ê²©:" << stock2.price << " ê°œìˆ˜:" << stock2.count << std::endl;
+	std::cout << "4." << stock3.name << " ê°€ê²©:" << stock3.price << " ê°œìˆ˜:" << stock3.count << std::endl;
+	std::cout << "5." << stock4.name << " ê°€ê²©:" << stock4.price << " ê°œìˆ˜:" << stock4.count << std::endl;
 
 	int num = 0;
 
-	std::cout << "¾î¶² ÁÖ½ÄÀ» ÆÇ¸ÅÇÒÁö °áÁ¤ÇÏ¼¼¿ä ( ¼ıÀÚ·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä ):";
+	std::cout << "ì–´ë–¤ ì£¼ì‹ì„ íŒë§¤í• ì§€ ê²°ì •í•˜ì„¸ìš” ( ìˆ«ìë¡œ ì…ë ¥í•´ ì£¼ì„¸ìš” ):";
 	std::cin >> num;
 	std::cout << std::endl;
 	bool isSell = false;
 
 	while (true) {
-		std::cout << "¹®Àå";
+		std::cout << "ë¬¸ì¥";
 		std::cin >> num;
 
 		if (std::cin.fail()) {
-			std::cout << std::endl << "À¯È¿ÇÏÁö ¾ÊÀº ÀÔ·ÂÀÔ´Ï´Ù." << std::endl << std::endl;
-			std::cin.clear(); // ¿À·ù »óÅÂ ÇÃ·¡±× ÃÊ±âÈ­
-			std::cin.ignore(INT_MAX, '\n'); // Àß¸øµÈ ÀÔ·Â ¹«½Ã
+			std::cout << std::endl << "ìœ íš¨í•˜ì§€ ì•Šì€ ì…ë ¥ì…ë‹ˆë‹¤." << std::endl << std::endl;
+			std::cin.clear(); // ì˜¤ë¥˜ ìƒíƒœ í”Œë˜ê·¸ ì´ˆê¸°í™”
+			std::cin.ignore(INT_MAX, '\n'); // ì˜ëª»ëœ ì…ë ¥ ë¬´ì‹œ
 		}
 		else {
-			break; // ÀÔ·Â ¼º°ø
+			break; // ì…ë ¥ ì„±ê³µ
 		}
 	}
 
@@ -165,7 +165,7 @@ void Sell( )
 		isSell = stock4.Sell(player.money);
 		break;
 	default:
-		std::cout << std::endl << "¼ıÀÚ¸¦ Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù" << std::endl;
+		std::cout << std::endl << "ìˆ«ìë¥¼ ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤" << std::endl;
 		isSell = false;
 		break;
 	}
@@ -179,49 +179,49 @@ void Sell( )
 	return;
 }
 
-//ÀÌº¥Æ® ÁÖ±â Ä«¿îÆ® ( Ã³À½½ÃÀÛÇÒ¶§ ¹Ù·Î ´º½º°¡ °»½ÅµÇ°ÔÇÏ±âÀ§ÇØ¼­ ÀÌº¥Æ®ÁÖ±â°ªÀ¸·Î ¼³Á¤)
+//ì´ë²¤íŠ¸ ì£¼ê¸° ì¹´ìš´íŠ¸ ( ì²˜ìŒì‹œì‘í• ë•Œ ë°”ë¡œ ë‰´ìŠ¤ê°€ ê°±ì‹ ë˜ê²Œí•˜ê¸°ìœ„í•´ì„œ ì´ë²¤íŠ¸ì£¼ê¸°ê°’ìœ¼ë¡œ ì„¤ì •)
 int eventCount = 5;
-//ÀÌº¥Æ® Á¾·ù °áÁ¤ÇÏ´Â º¯¼ö
+//ì´ë²¤íŠ¸ ì¢…ë¥˜ ê²°ì •í•˜ëŠ” ë³€ìˆ˜
 int event = (rand() % 10) + 1;
 void news()
 {
 	switch (event)
 	{
 	case 1:
-		std::cout << std::endl << "Àü¼¼°èÀû Àü¿°º´ ¹ß¹ß, º¸°Ç ´ç±¹¾Ö¼­´Â Ã»°á°ú ¿ÜÃâ¿¡ ÁÖÀÇ ´çºÎ" << std::endl;
+		std::cout << std::endl << "ì „ì„¸ê³„ì  ì „ì—¼ë³‘ ë°œë°œ, ë³´ê±´ ë‹¹êµ­ì• ì„œëŠ” ì²­ê²°ê³¼ ì™¸ì¶œì— ì£¼ì˜ ë‹¹ë¶€" << std::endl;
 		break;
 	case 2:
-		std::cout << std::endl << "È­ÇĞ ¹°Áú¿¡ °ü·ÃµÈ Á¤ºÎ Â÷¿øÀÇ ´ë´ëÀûÀÎ °¨»ç ÁøÇà ¿¹Á¤, ¼öÀÔ ¾÷Ã¼µµ ¿¹¿Ü´Â ¾Æ´Ï´Ù" << std::endl;
+		std::cout << std::endl << "í™”í•™ ë¬¼ì§ˆì— ê´€ë ¨ëœ ì •ë¶€ ì°¨ì›ì˜ ëŒ€ëŒ€ì ì¸ ê°ì‚¬ ì§„í–‰ ì˜ˆì •, ìˆ˜ì… ì—…ì²´ë„ ì˜ˆì™¸ëŠ” ì•„ë‹ˆë‹¤" << std::endl;
 
 		break;
 	case 3:
-		std::cout << std::endl << "µ¿¾Æ½Ã¾Æ Á¤»óÈ¸´ã°³ÃÖ ¿¹Á¤. ÁÖ¿ä ÀÇÁ¦´Â µ¿¾Æ½Ã¾Æ ±¹°¡ °£ °ü¼¼ Á¶Á¤" << std::endl;
+		std::cout << std::endl << "ë™ì•„ì‹œì•„ ì •ìƒíšŒë‹´ê°œìµœ ì˜ˆì •. ì£¼ìš” ì˜ì œëŠ” ë™ì•„ì‹œì•„ êµ­ê°€ ê°„ ê´€ì„¸ ì¡°ì •" << std::endl;
 		break;
 	case 4:
-		std::cout << std::endl << "Á¤ºÎ ÁÖµµ·Î ¹Ìµğ¾î ¸ÅÃ¼ÀÇ °Ë¿­ Á¦µµ¿¡ ´ëÇÑ Àç°ËÅä ¹ßÇ¥. ±ÔÁ¦Ã¥ °­È­ ¿¹Á¤" << std::endl;
+		std::cout << std::endl << "ì •ë¶€ ì£¼ë„ë¡œ ë¯¸ë””ì–´ ë§¤ì²´ì˜ ê²€ì—´ ì œë„ì— ëŒ€í•œ ì¬ê²€í†  ë°œí‘œ. ê·œì œì±… ê°•í™” ì˜ˆì •" << std::endl;
 
 		break;
 	case 5:
-		std::cout << std::endl << "µ¿»ê ÄÚ¹Í½º, Ã»¼Ò³âµéÀÇ ÁØ¹ıÀÇ½Ä ÇÔ¾çÀ» À§ÇÑ ÇĞ½À¸¸È­ Á¦ÀÛ Âø¼ö. ¹ı¹« ¹ıÀÎ ½¦ÅÎ°ú Çù·Â ¿¹Á¤ " << std::endl;
+		std::cout << std::endl << "ë™ì‚° ì½”ë¯¹ìŠ¤, ì²­ì†Œë…„ë“¤ì˜ ì¤€ë²•ì˜ì‹ í•¨ì–‘ì„ ìœ„í•œ í•™ìŠµë§Œí™” ì œì‘ ì°©ìˆ˜. ë²•ë¬´ ë²•ì¸ ì‰í„±ê³¼ í˜‘ë ¥ ì˜ˆì • " << std::endl;
 		break;
 	case 6:
-		std::cout << std::endl << "Áß±¹, ÆÇÈ£ ¹ßÇà Á¶°Ç °­È­. ¹Ìµğ¾î »ê¾÷ ÃÑÃ¼Àû ³­±¹" << std::endl;
+		std::cout << std::endl << "ì¤‘êµ­, íŒí˜¸ ë°œí–‰ ì¡°ê±´ ê°•í™”. ë¯¸ë””ì–´ ì‚°ì—… ì´ì²´ì  ë‚œêµ­" << std::endl;
 
 		break;
 	case 7:
-		std::cout << std::endl << "±¹Á¦ÀûÀÎ À¯°¡ Æøµî. °ü·Ã ¾÷Ã¼´Â ÇÑ¼û¸¸" << std::endl;
+		std::cout << std::endl << "êµ­ì œì ì¸ ìœ ê°€ í­ë“±. ê´€ë ¨ ì—…ì²´ëŠ” í•œìˆ¨ë§Œ" << std::endl;
 		break;
 	case 8:
-		std::cout << std::endl << "µ¿¾Æ½Ã¾Æ±îÁö ³»·Á¿Â ¼Ò¸»¸®¾Æ ÇØÀû. ÇØ»ó ¹«¿ªÀÇ Àû½ÅÈ£ ¹ß¹ß" << std::endl;
+		std::cout << std::endl << "ë™ì•„ì‹œì•„ê¹Œì§€ ë‚´ë ¤ì˜¨ ì†Œë§ë¦¬ì•„ í•´ì . í•´ìƒ ë¬´ì—­ì˜ ì ì‹ í˜¸ ë°œë°œ" << std::endl;
 		break;
 	case 9:
-		std::cout << std::endl << "º¸»ê È­ÇĞ, ¹ı¹«¹ıÀÎ ½¦ÅÎ°ú ¾÷¹« Çù¾à Ã¼°á." << std::endl;
+		std::cout << std::endl << "ë³´ì‚° í™”í•™, ë²•ë¬´ë²•ì¸ ì‰í„±ê³¼ ì—…ë¬´ í˜‘ì•½ ì²´ê²°." << std::endl;
 		break;
 	case 10:
-		std::cout << std::endl << "´ö·¡ °ÔÀÓÁî, ½Å±Ô IP Á¦ÀÛ °èÈ¹ ¹ßÇ¥. ¿¹»ó °³¹ßºñ´Â ¾à 1000¾ï ÀÌ»ó ¿¹Á¤" << std::endl;
+		std::cout << std::endl << "ë•ë˜ ê²Œì„ì¦ˆ, ì‹ ê·œ IP ì œì‘ ê³„íš ë°œí‘œ. ì˜ˆìƒ ê°œë°œë¹„ëŠ” ì•½ 1000ì–µ ì´ìƒ ì˜ˆì •" << std::endl;
 		break;
 	default:
-		std::cout << std::endl << "¼Ò½ÄÀÌ ¾ø½À´Ï´Ù" << std::endl;
+		std::cout << std::endl << "ì†Œì‹ì´ ì—†ìŠµë‹ˆë‹¤" << std::endl;
 		break;
 	}
 	return;
@@ -232,20 +232,20 @@ void Lobby()
 {
 
 		int num=0;
-		std::cout<<std::endl<< "¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : 1.³»Á¤º¸ / 2.ÁÖ½ÄÁ¾·ù,°¡°İ / 3.ÁÖ½Ä ±¸¸Å / 4.ÁÖ½Ä ÆÇ¸Å / 5.´º½º È®ÀÎ :";
+		std::cout<<std::endl<< "ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : 1.ë‚´ì •ë³´ / 2.ì£¼ì‹ì¢…ë¥˜,ê°€ê²© / 3.ì£¼ì‹ êµ¬ë§¤ / 4.ì£¼ì‹ íŒë§¤ / 5.ë‰´ìŠ¤ í™•ì¸ :";
 		std::cin >> num;
 
 		while (true) {
-			std::cout << "¹®Àå";
+			std::cout << "ë¬¸ì¥";
 			std::cin >> num;
 
 			if (std::cin.fail()) {
-				std::cout << std::endl << "À¯È¿ÇÏÁö ¾ÊÀº ÀÔ·ÂÀÔ´Ï´Ù." << std::endl << std::endl;
-				std::cin.clear(); // ¿À·ù »óÅÂ ÇÃ·¡±× ÃÊ±âÈ­
-				std::cin.ignore(INT_MAX, '\n'); // Àß¸øµÈ ÀÔ·Â ¹«½Ã
+				std::cout << std::endl << "ìœ íš¨í•˜ì§€ ì•Šì€ ì…ë ¥ì…ë‹ˆë‹¤." << std::endl << std::endl;
+				std::cin.clear(); // ì˜¤ë¥˜ ìƒíƒœ í”Œë˜ê·¸ ì´ˆê¸°í™”
+				std::cin.ignore(INT_MAX, '\n'); // ì˜ëª»ëœ ì…ë ¥ ë¬´ì‹œ
 			}
 			else {
-				break; // ÀÔ·Â ¼º°ø
+				break; // ì…ë ¥ ì„±ê³µ
 			}
 		}
 
@@ -267,7 +267,7 @@ void Lobby()
 				news();
 				break;
 			default:
-				std::cout << std::endl << "¼ıÀÚ¸¦ Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù"<<std::endl;
+				std::cout << std::endl << "ìˆ«ìë¥¼ ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤"<<std::endl;
 				break;
 
 
@@ -279,7 +279,7 @@ void Lobby()
 
 
 
-// ÁÖ±âÀûÀ¸·Î ½ÇÇàµÉ ÇÔ¼ö
+// ì£¼ê¸°ì ìœ¼ë¡œ ì‹¤í–‰ë  í•¨ìˆ˜
 void StockUpdate() 
 {
 	srand(time(NULL));
@@ -292,11 +292,11 @@ void StockUpdate()
 
 	std::cout << std::endl;
 	std::cout << std::endl;
-	std::cout << "***** ÁÖ°¡°¡ º¯µ¿µÇ¾ú½À´Ï´Ù *****";
+	std::cout << "***** ì£¼ê°€ê°€ ë³€ë™ë˜ì—ˆìŠµë‹ˆë‹¤ *****";
 	std::cout << std::endl;
 
 
-	//1~50 »ó½Â 51~100 ÇÏ¶ô
+	//1~50 ìƒìŠ¹ 51~100 í•˜ë½
 
 	//stock0
 	if (stock0.upPercent>(rand() % 100)+1)
@@ -310,7 +310,7 @@ void StockUpdate()
 		{
 			stock0.price = 1;
 		}
-		std::cout << stock0.name << " °¡°İ:" << stock0.price <<" +"<< (rate0-1)*100<<"%" << std::endl;
+		std::cout << stock0.name << " ê°€ê²©:" << stock0.price <<" +"<< (rate0-1)*100<<"%" << std::endl;
 	}
 	else
 	{
@@ -322,7 +322,7 @@ void StockUpdate()
 		{
 			stock0.price = 1;
 		}
-		std::cout << stock0.name << " °¡°İ:" << stock0.price <<" -"<< (1-rate0)*100<<"%" << std::endl;
+		std::cout << stock0.name << " ê°€ê²©:" << stock0.price <<" -"<< (1-rate0)*100<<"%" << std::endl;
 	}
 
 
@@ -339,7 +339,7 @@ void StockUpdate()
 		{
 			stock1.price = 1;
 		}
-		std::cout << stock1.name << " °¡°İ:" << stock1.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
+		std::cout << stock1.name << " ê°€ê²©:" << stock1.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
 	}
 	else
 	{
@@ -351,7 +351,7 @@ void StockUpdate()
 		{
 			stock1.price = 1;
 		}
-		std::cout << stock1.name << " °¡°İ:" << stock1.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
+		std::cout << stock1.name << " ê°€ê²©:" << stock1.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
 	}
 
 	
@@ -368,7 +368,7 @@ void StockUpdate()
 		{
 			stock2.price = 1;
 		}
-		std::cout << stock2.name << " °¡°İ:" << stock2.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
+		std::cout << stock2.name << " ê°€ê²©:" << stock2.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
 	}
 	else
 	{
@@ -380,7 +380,7 @@ void StockUpdate()
 		{
 			stock2.price = 1;
 		}
-		std::cout << stock2.name << " °¡°İ:" << stock2.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
+		std::cout << stock2.name << " ê°€ê²©:" << stock2.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
 	}
 
 
@@ -396,7 +396,7 @@ void StockUpdate()
 		{
 			stock3.price = 1;
 		}
-		std::cout << stock3.name << " °¡°İ:" << stock3.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
+		std::cout << stock3.name << " ê°€ê²©:" << stock3.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
 	}
 	else
 	{
@@ -408,7 +408,7 @@ void StockUpdate()
 		{
 			stock3.price = 1;
 		}
-		std::cout << stock3.name << " °¡°İ:" << stock3.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
+		std::cout << stock3.name << " ê°€ê²©:" << stock3.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
 	}
 
 	//stock4
@@ -423,7 +423,7 @@ void StockUpdate()
 		{
 			stock4.price = 1;
 		}
-		std::cout << stock4.name << " °¡°İ:" << stock4.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
+		std::cout << stock4.name << " ê°€ê²©:" << stock4.price << " +" << (rate0 - 1) * 100 << "%" << std::endl;
 	}
 	else
 	{
@@ -435,14 +435,14 @@ void StockUpdate()
 		{
 			stock4.price = 1;
 		}
-		std::cout << stock4.name << " °¡°İ:" << stock4.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
+		std::cout << stock4.name << " ê°€ê²©:" << stock4.price << " -" << (1 - rate0) * 100 << "%" << std::endl;
 	}
 
 
 	
 	eventCount++;
 	
-	//ÀÌº¥Æ® ÁÖ±â ¼³Á¤ ¿©±â¼­
+	//ì´ë²¤íŠ¸ ì£¼ê¸° ì„¤ì • ì—¬ê¸°ì„œ
 	if (eventCount >= 5)
 	{
 		stock0.upPercent = 50;
@@ -451,57 +451,68 @@ void StockUpdate()
 		stock3.upPercent = 50;
 		stock4.upPercent = 50;
 		eventCount = 0;
-		std::cout << std::endl << "´º½º°¡ °»½ÅµÇ¾ú½À´Ï´Ù" << std::endl;
+		std::cout << std::endl << "ë‰´ìŠ¤ê°€ ê°±ì‹ ë˜ì—ˆìŠµë‹ˆë‹¤" << std::endl;
 
 
 		switch (event)
 		{
 		case 1:
-			std::cout << std::endl << "Àü¼¼°èÀû Àü¿°º´ ¹ß¹ß, º¸°Ç ´ç±¹¾Ö¼­´Â Ã»°á°ú ¿ÜÃâ¿¡ ÁÖÀÇ ´çºÎ" << std::endl;
-			stock1.upPercent = 5;
-			stock4.upPercent = 70;
-			break;
+		std::cout << std::endl << "ì „ì„¸ê³„ì  ì „ì—¼ë³‘ ë°œë°œ, ë³´ê±´ ë‹¹êµ­ì• ì„œëŠ” ì²­ê²°ê³¼ ì™¸ì¶œì— ì£¼ì˜ ë‹¹ë¶€" << std::endl;
+		stock1.upPercent = 70;
+		stock4.upPercent = 70;
+		break;
+		
 		case 2:
-			std::cout << std::endl << "È­ÇĞ ¹°Áú¿¡ °ü·ÃµÈ Á¤ºÎ Â÷¿øÀÇ ´ë´ëÀûÀÎ °¨»ç ÁøÇà ¿¹Á¤, ¼öÀÔ ¾÷Ã¼µµ ¿¹¿Ü´Â ¾Æ´Ï´Ù" << std::endl;
-			stock0.upPercent = 35;
-			stock3.upPercent = 95;
-			break;
+		std::cout << std::endl << "í™”í•™ ë¬¼ì§ˆì— ê´€ë ¨ëœ ì •ë¶€ ì°¨ì›ì˜ ëŒ€ëŒ€ì ì¸ ê°ì‚¬ ì§„í–‰ ì˜ˆì •, ìˆ˜ì… ì—…ì²´ë„ ì˜ˆì™¸ëŠ” ì•„ë‹ˆë‹¤" << std::endl;
+		stock0.upPercent = 35;
+		stock3.upPercent = 35;
+		break;
+			
 		case 3:
-			std::cout << std::endl << "µ¿¾Æ½Ã¾Æ Á¤»óÈ¸´ã°³ÃÖ ¿¹Á¤. ÁÖ¿ä ÀÇÁ¦´Â µ¿¾Æ½Ã¾Æ ±¹°¡ °£ °ü¼¼ Á¶Á¤" << std::endl;
-			stock0.upPercent = 100;
-			break;
+		std::cout << std::endl << "ë™ì•„ì‹œì•„ ì •ìƒíšŒë‹´ê°œìµœ ì˜ˆì •. ì£¼ìš” ì˜ì œëŠ” ë™ì•„ì‹œì•„ êµ­ê°€ ê°„ ê´€ì„¸ ì¡°ì •" << std::endl;
+		stock0.upPercent = 100;
+		break;
+	
 		case 4:
-			std::cout << std::endl << "Á¤ºÎ ÁÖµµ·Î ¹Ìµğ¾î ¸ÅÃ¼ÀÇ °Ë¿­ Á¦µµ¿¡ ´ëÇÑ Àç°ËÅä ¹ßÇ¥. ±ÔÁ¦Ã¥ °­È­ ¿¹Á¤" << std::endl;
-			stock1.upPercent = 10;
-			stock4.upPercent = 10;
-			break;
+		std::cout << std::endl << "ì •ë¶€ ì£¼ë„ë¡œ ë¯¸ë””ì–´ ë§¤ì²´ì˜ ê²€ì—´ ì œë„ì— ëŒ€í•œ ì¬ê²€í†  ë°œí‘œ. ê·œì œì±… ê°•í™” ì˜ˆì •" << std::endl;
+		stock1.upPercent = 10;
+		stock4.upPercent = 10;
+		break;
+	
 		case 5:
-			std::cout << std::endl << "µ¿»ê ÄÚ¹Í½º, Ã»¼Ò³âµéÀÇ ÁØ¹ıÀÇ½Ä ÇÔ¾çÀ» À§ÇÑ ÇĞ½À¸¸È­ Á¦ÀÛ Âø¼ö. ¹ı¹« ¹ıÀÎ ½¦ÅÎ°ú Çù·Â ¿¹Á¤ " << std::endl;
-			stock2.upPercent = 75;
-			break;
+		std::cout << std::endl << "ë™ì‚° ì½”ë¯¹ìŠ¤, ì²­ì†Œë…„ë“¤ì˜ ì¤€ë²•ì˜ì‹ í•¨ì–‘ì„ ìœ„í•œ í•™ìŠµë§Œí™” ì œì‘ ì°©ìˆ˜. ë²•ë¬´ ë²•ì¸ ì‰í„±ê³¼ í˜‘ë ¥ ì˜ˆì • " << std::endl;
+		stock2.upPercent = 75;
+		stock4.upPercent = 75;
+		break;
+	
 		case 6:
-			std::cout << std::endl << "Áß±¹, ÆÇÈ£ ¹ßÇà Á¶°Ç °­È­. ¹Ìµğ¾î »ê¾÷ ÃÑÃ¼Àû ³­±¹" << std::endl;
-			stock1.upPercent = 10;
-			stock4.upPercent = 30;
-			break;
+		std::cout << std::endl << "ì¤‘êµ­, íŒí˜¸ ë°œí–‰ ì¡°ê±´ ê°•í™”. ë¯¸ë””ì–´ ì‚°ì—… ì´ì²´ì  ë‚œêµ­" << std::endl;
+		stock1.upPercent = 10;
+		stock4.upPercent = 10;
+		break;
+	
 		case 7:
-			std::cout << std::endl << "±¹Á¦ÀûÀÎ À¯°¡ Æøµî. °ü·Ã ¾÷Ã¼´Â ÇÑ¼û¸¸" << std::endl;
-			stock0.upPercent = 5;
-			stock3.upPercent = 30;
-			break;
+		std::cout << std::endl << "êµ­ì œì ì¸ ìœ ê°€ í­ë“±. ê´€ë ¨ ì—…ì²´ëŠ” í•œìˆ¨ë§Œ" << std::endl;
+		stock0.upPercent = 5;
+		stock3.upPercent = 30;
+		break;
+	
 		case 8:
-			std::cout << std::endl << "µ¿¾Æ½Ã¾Æ±îÁö ³»·Á¿Â ¼Ò¸»¸®¾Æ ÇØÀû. ÇØ»ó ¹«¿ªÀÇ Àû½ÅÈ£ ¹ß¹ß" << std::endl;
-			stock0.upPercent = 5;
-			break;
+		std::cout << std::endl << "ë™ì•„ì‹œì•„ê¹Œì§€ ë‚´ë ¤ì˜¨ ì†Œë§ë¦¬ì•„ í•´ì . í•´ìƒ ë¬´ì—­ì˜ ì ì‹ í˜¸ ë°œë°œ" << std::endl;
+		stock0.upPercent = 5;
+		break;
+	
 		case 9:
-			std::cout << std::endl << "º¸»ê È­ÇĞ, ¹ı¹«¹ıÀÎ ½¦ÅÎ°ú ¾÷¹« Çù¾à Ã¼°á." << std::endl;
-			stock2.upPercent = 75;
-			stock3.upPercent = 75;
-			break;
+		std::cout << std::endl << "ë³´ì‚° í™”í•™, ë²•ë¬´ë²•ì¸ ì‰í„±ê³¼ ì—…ë¬´ í˜‘ì•½ ì²´ê²°." << std::endl;
+		stock2.upPercent = 75;
+		stock3.upPercent = 75;
+		break;
+	
 		case 10:
-			std::cout << std::endl << "´ö·¡ °ÔÀÓÁî, ½Å±Ô IP Á¦ÀÛ °èÈ¹ ¹ßÇ¥. ¿¹»ó °³¹ßºñ´Â ¾à 1000¾ï ÀÌ»ó ¿¹Á¤" << std::endl;
-			stock1.upPercent = 100;
-			break;
+		std::cout << std::endl << "ë•ë˜ ê²Œì„ì¦ˆ, ì‹ ê·œ IP ì œì‘ ê³„íš ë°œí‘œ. ì˜ˆìƒ ê°œë°œë¹„ëŠ” ì•½ 1000ì–µ ì´ìƒ ì˜ˆì •" << std::endl;
+		stock1.upPercent = 100;
+		break;
+	
 		default:
 			break;
 		}
@@ -511,11 +522,11 @@ void StockUpdate()
 	
 
 	std::cout << std::endl;
-	std::cout << std::endl << "¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : 1.³»Á¤º¸ / 2.ÁÖ½ÄÁ¾·ù,°¡°İ / 3.ÁÖ½Ä ±¸¸Å / 4.ÁÖ½Ä ÆÇ¸Å / 5.´º½º È®ÀÎ :";
+	std::cout << std::endl << "ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : 1.ë‚´ì •ë³´ / 2.ì£¼ì‹ì¢…ë¥˜,ê°€ê²© / 3.ì£¼ì‹ êµ¬ë§¤ / 4.ì£¼ì‹ íŒë§¤ / 5.ë‰´ìŠ¤ í™•ì¸ :";
 	
 }
 
-// Å¸ÀÌ¸Ó ½º·¹µå ÇÔ¼ö
+// íƒ€ì´ë¨¸ ìŠ¤ë ˆë“œ í•¨ìˆ˜
 void StockUpdateTimer(std::atomic<bool>& running, int intervalSeconds)
 {
 	while (running) {
@@ -532,12 +543,12 @@ int main()
 {
 	srand(time(NULL));
 	std::atomic<bool> running(true);
-	int interval = 3; // ½º·¹µå °£°İ
+	int interval = 3; // ìŠ¤ë ˆë“œ ê°„ê²©
 
-	// StockUpdate Å¸ÀÌ¸Ó¸¦ º°µµ ½º·¹µå·Î ½ÇÇà
+	// StockUpdate íƒ€ì´ë¨¸ë¥¼ ë³„ë„ ìŠ¤ë ˆë“œë¡œ ì‹¤í–‰
 	std::thread stockThread(StockUpdateTimer,std::ref(running), interval);
 
-	// Á¾·á ½ÅÈ£ º¸³»°í ½º·¹µå Á¤¸®
+	// ì¢…ë£Œ ì‹ í˜¸ ë³´ë‚´ê³  ìŠ¤ë ˆë“œ ì •ë¦¬
 	//running = false;
 	//stockThread.join();
 
